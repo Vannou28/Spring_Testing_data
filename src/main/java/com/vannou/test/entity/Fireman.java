@@ -16,6 +16,11 @@ public class Fireman {
 
     public Fireman() {
     }
+
+    public Fireman(String name) {
+        this.name = name;
+    }
+    
     public Fireman( String name, List<Fire> fires) {
 
         this.name = name;
